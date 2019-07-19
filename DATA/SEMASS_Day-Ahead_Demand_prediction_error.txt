@@ -1,0 +1,24 @@
+                                    OLS Regression Results                                   
+=============================================================================================
+Dep. Variable:     Day-Ahead_Demand_prediction_error   R-squared:                       0.009
+Model:                                           OLS   Adj. R-squared:                  0.009
+Method:                                Least Squares   F-statistic:                     16.68
+Date:                               Fri, 19 Jul 2019   Prob (F-statistic):           4.62e-05
+Time:                                       13:50:22   Log-Likelihood:                -11204.
+No. Observations:                               1825   AIC:                         2.241e+04
+Df Residuals:                                   1824   BIC:                         2.242e+04
+Df Model:                                          1                                         
+Covariance Type:                           nonrobust                                         
+=====================================================================================================
+                                        coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------------
+Day-Ahead_Demand_prediction_error     0.0953      0.023      4.084      0.000       0.050       0.141
+==============================================================================
+Omnibus:                      110.088   Durbin-Watson:                   1.943
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              379.569
+Skew:                           0.206   Prob(JB):                     3.78e-83
+Kurtosis:                       5.196   Cond. No.                         1.00
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

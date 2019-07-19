@@ -1,0 +1,24 @@
+                                   OLS Regression Results                                   
+============================================================================================
+Dep. Variable:     Real-time_Price_prediction_error   R-squared:                       0.008
+Model:                                          OLS   Adj. R-squared:                  0.007
+Method:                               Least Squares   F-statistic:                     14.41
+Date:                              Fri, 19 Jul 2019   Prob (F-statistic):           0.000152
+Time:                                      13:50:20   Log-Likelihood:                -7969.1
+No. Observations:                              1825   AIC:                         1.594e+04
+Df Residuals:                                  1824   BIC:                         1.595e+04
+Df Model:                                         1                                         
+Covariance Type:                          nonrobust                                         
+====================================================================================================
+                                       coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------------------
+Real-time_Price_prediction_error    -0.0885      0.023     -3.796      0.000      -0.134      -0.043
+==============================================================================
+Omnibus:                      349.963   Durbin-Watson:                   2.023
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             7499.152
+Skew:                           0.274   Prob(JB):                         0.00
+Kurtosis:                      12.916   Cond. No.                         1.00
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

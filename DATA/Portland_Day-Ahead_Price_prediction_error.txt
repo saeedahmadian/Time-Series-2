@@ -1,0 +1,24 @@
+                                   OLS Regression Results                                   
+============================================================================================
+Dep. Variable:     Day-Ahead_Price_prediction_error   R-squared:                       0.016
+Model:                                          OLS   Adj. R-squared:                  0.015
+Method:                               Least Squares   F-statistic:                     29.32
+Date:                              Fri, 19 Jul 2019   Prob (F-statistic):           6.93e-08
+Time:                                      13:50:17   Log-Likelihood:                -7352.2
+No. Observations:                              1825   AIC:                         1.471e+04
+Df Residuals:                                  1824   BIC:                         1.471e+04
+Df Model:                                         1                                         
+Covariance Type:                          nonrobust                                         
+====================================================================================================
+                                       coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------------------
+Day-Ahead_Price_prediction_error     0.1258      0.023      5.415      0.000       0.080       0.171
+==============================================================================
+Omnibus:                      415.283   Durbin-Watson:                   1.960
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            18831.860
+Skew:                          -0.012   Prob(JB):                         0.00
+Kurtosis:                      18.737   Cond. No.                         1.00
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
